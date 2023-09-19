@@ -67,7 +67,7 @@ const Navbar = () => {
           )}
         </li>
         <li className="nav__item">
-          <Link to="/Login" className="nav__link">
+          <Link to="/login" className="nav__link">
             INICIAR SESION
           </Link>
         </li>
