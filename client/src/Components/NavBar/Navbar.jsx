@@ -61,15 +61,15 @@ const Navbar = () => {
               </button>
             </>
           ) : (
-            <a href="/registro" className="nav__link">
+            <Link to="/registro" className="nav__link">
               REGISTRATE
-            </a>
+            </Link>
           )}
         </li>
         <li className="nav__item">
-          <a href="/Login" className="nav__link">
+          <Link to="/Login" className="nav__link">
             INICIAR SESION
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
